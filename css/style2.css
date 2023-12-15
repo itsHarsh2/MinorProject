@@ -1,0 +1,113 @@
+nav{
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 15%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.navbar{
+    display: flex;
+    margin-right: 4vh;
+}
+
+.navbar a{
+    color: white;
+    font-size: 18px;
+    padding: 10px 22px;
+    border-radius: 4px;
+    font-weight: 500;   
+    text-decoration: none;
+    transition: ease 0.40s;
+}
+
+.navbar a:hover,.navbar a.active{
+    background: white;
+    color: black;
+    box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
+    border-radius: 5px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+}
+
+.register- body{
+    background-color: #101010;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.registration{
+    background-color: #ffb607;
+    padding: 110px 30%;
+    /* height: 100%; */
+    min-height: 100vh;
+}
+
+.register-form h1{
+    font-size: 80px;
+    /* color: rgb(211, 192, 44); */
+    color: #101010;
+    /* color: white; */
+    margin-bottom: 20px;
+}
+.register-form h1 span{
+    /* color: #fc0050; */
+    color: white;
+}
+
+.register-form{
+    color: white;
+    font-size: 20px;
+}
+
+.register-form form input{
+    color: rgb(0, 0, 0);
+    padding: 17px;
+    /* background-color: #191919; */
+    background-color: white;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+}
+.register-form h4{
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: black;
+}
+
+
+.register-form form .submitbtn{
+    display: inline-block;
+    background-color: #fc0050;
+    font-size: 27px;
+    font-weight: 600px;
+    border: 2px solid transparent;
+    border-radius: 60px;
+    width: 160px;
+    cursor: pointer;
+    transition: ease 0.30s;
+}
+
+.register-form form .submitbtn:hover{
+    border: 2px solid #fc0050;
+    background-color: transparent;
+    transform: scale(1.1);
+}
